@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project(3D_Reconstruction)
+find_package(OpenCV REQUIRED)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+add_subdirectory(src)
